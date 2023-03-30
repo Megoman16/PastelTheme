@@ -1,3 +1,182 @@
+/**
+ * @name Nemi's Background
+ * @author Megoman16#3699
+ * @version 2.6.1
+*/
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url("https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css");
+
+:root {
+    /* Overall */
+--Primary-Color: #ffc2d1;
+--Accent-Color: #C3EEFA;
+--Search-Result-Background-Color: #ee9e9e;
+--Embed-Color: #c3eefa81;
+--Message-Bar: var(--Primary-Color);
+--scrollbar-color: #6df88bd7;
+--Searchbar-Color: #00000070;
+--DM-Userbar-Color: #c3a5b9;
+
+--Code-Box-Color: #403f53;
+--Code-Border:3px solid #328199;
+--Code-Text-Color: rgb(255, 255, 255);
+
+--theme-background-image: url('https://media.discordapp.net/attachments/1086703835818496102/1090760797485006888/Pixel_-_115.jpg?width=1193&height=671');
+--theme-transparency: #00000026;
+    
+    /* Chat */
+--text-normal: #000000;
+  text-shadow: 0 0 1px #00000000;
+  font-weight: 400;
+--Chat-Bubble-Outline-Width: 2px;
+
+--Ping-Color: #eb7aff83;
+--Ping-Color-Accent: #d875c783;
+--Ping-Color-Border: #ff00d4;
+
+--Reply-Color: #96ebeb93;
+--Reply-Color-Border: #023cfb;
+
+--Chatbox-Color:#6e6e6e83;
+--Call-Color: #242424b6;
+
+    /* message color */
+--Secondary-Text-Color:#49b440;
+--Channel-Text-Color: #d4bd88;
+--Unread-Channel-Text-color: #C3EEFA;
+
+    /* Member list */
+--member-listing-role-color: #ffceff;
+--Memberlist-Color: #24242494;
+
+    /* Channel List*/
+--Channel-List-Color: #0707079d;
+
+    /* Server List*/
+--Server-List-Color: #13131344;
+    /* 
+        Folder setting
+        just keep it to shades of gray
+        if you want them to be random, 
+        if you give it a color then it
+        will start to tint all of them that color
+    */
+--folder-background-color: #a7a7a7; 
+
+    /*
+        Server Listing Width
+        Single Column:  62px
+        Double Column:  126px
+        Triple Column:  184px
+        Quad Column:    242px
+    */
+--server-listing-width: 126px;
+
+
+
+
+
+
+--text-voice-channel-color: var(--Channel-Text-Color);
+
+    /* Unread Channel Color */
+--unread-text-channel-color: var(--Unread-Channel-Text-color);
+
+
+--mention-hover-color: var(--Ping-Color);
+--background-mentioned: var(--Ping-Color-Accent);
+--info-warning-foreground: var(--Ping-Color-Border);
+--brand-experiment: var(--Reply-Color-Border);
+--brand-experiment-05a: var(--Reply-Color);
+--background-secondary: var(--Primary-Color);
+--background-secondary-alt: var(--Code-Box-Color);
+--main-theme-color: var(--Secondary-Text-Color);
+--home-icon-image: url('https://i.imgur.com/zi3C4uI.png');
+--home-icon-image-zoom: 100%;
+--home-icon-image-position: center;
+--font-size: 100%;
+--category-hover-color: rgb(41, 121, 187);
+--unread-server-animation: rainbow;
+--video-screen-button-background-color: #c8c8c833;
+--video-screen-button-foreground-color: #ffffffff;
+--video-screen-button-background-hovor-color: #c8c8c866;
+--video-screen-button-foreground-hovor-color: #ffffffff;
+--small-user-popout-background-image: url('https://i.imgur.com/AyVPEP3.gif');
+--small-user-popout-background-transparency: #00000099;
+--small-user-popout-background-image-position: top;
+--big-user-popout-background-image: url('https://i.imgur.com/XQkTjax.jpg');
+--big-user-popout-background-transparency: #00000099;
+--big-user-popout-background-image-position: center;
+--code-markup-background-color: var(--Code-Box-Color);
+--code-markup-border: var(--Code-Border);
+--message-box-transparency: var(--Message-Bar);
+--embed-background-transparency: var(--Embed-Color);
+--message-hover-buttons-background: var(--Accent-Color);
+--context-menu-transparency: #0f0f0fcc;
+--add-discover-icon-transparency: #c8c8c826;
+--add-discover-icon-color: var(--Accent-Color);
+--channel-limit-count-color: var(--Accent-Color);
+--channel-limit-background-left: #c8c8c81a;
+--channel-limit-background-right: #c8c8c833;
+--unread-message-divider-color: #f04747;
+--unread-message-divider-font-color: #ffffff;
+--new-messages-bar-background-color: #7289da;
+--new-messages-bar-font-color: #1f1f1f;
+--emoji-menu-background-color:var(--Code-Box-Color);
+--emoji-menu-sider-background-color: var(--message-search-result-background-color);
+--emoji-menu-server-header-background-color: #000000;
+--emoji-menu-bottom-bar-background-color: #2c2c2c;
+--emoji-menu-search-bar-background-color: #2c2c2c;
+--message-search-menu-background-color: #000000cc;
+--message-search-container-background-color: #00000099;
+--message-search-result-background-color:  var(--Search-Result-Background-Color);
+--text-voice-channel-hover-color: #1a2129;
+--text-voice-channel-selected-text-color: #ffffff;
+--unread-text-channel-bubble-color: var(--unread-text-channel-color);
+--expanded-folder-background-color: #00000000;
+--reaction-emoji-background-color: #00000000;
+--reaction-emoji-border-color: 1px solid transparent;
+--reaction-emoji-hover-background-color: #ffffff1a;
+--reaction-emoji-hover-border-color: #ffffff33;
+
+--mention-color: var(--mention-hover-color);
+--mention-sider: var(--background-mentioned);
+
+--roles-roundness: 0;
+--roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px);
+--chat-bubble: 1;
+--chat-bubble-background-color: var(--background-secondary);
+--chat-bubble-border-color: var(--Accent-Color);
+--chat-bubble-code-background-color: var(--Code-Box-Color);
+
+--chat-bubble-max-width: 90%;
+--chat-bubble-border-radius: 8px;
+
+--chat-bubble-box-shadow-h-offset: 1px;
+--chat-bubble-box-shadow-v-offset: 4px;
+--chat-bubble-box-shadow-blur: 4px;
+    
+--chat-bubble-box-shadow-color-h: 0;
+--chat-bubble-box-shadow-color-s: 0%;
+--chat-bubble-box-shadow-color-l: 0%;
+--chat-bubble-box-shadow-color-a: 0.16;
+
+    /**/
+--rs-small-spacing: 0px;
+--rs-medium-spacing: 2px;
+--rs-large-spacing: 2px;
+--rs-small-width: 2px;
+--rs-medium-width: 2px;
+--rs-large-width: 2px;
+--rs-avatar-shape: 50%;
+--rs-online-color: #43b581;
+--rs-idle-color: #faa61a;
+--rs-dnd-color: #f04747;
+--rs-offline-color: #636b75;
+--rs-streaming-color: #643da7;
+--rs-phone-visible: block;
+
+}
 
 /* To change code block color */
 .markup-eYLPri code {
